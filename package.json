@@ -1,0 +1,19 @@
+{
+  "name": "minesweeper-solver",
+  "version": "1.0.0",
+  "description": "A TypeScript script to solve Minesweeper puzzles using Puppeteer",
+  "main": "minesweeper_solver.ts",
+  "scripts": {
+    "start": "npx ts-node minesweeper_solver.ts"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0",
+    "typescript": "^5.5.4",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^7.0.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
